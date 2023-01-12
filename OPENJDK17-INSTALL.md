@@ -10,10 +10,11 @@ Open your termanal and copy and paste the command:<br>
 Open your termanal and copy and paste the command:<br>
 `sudo pacman -S jre17-openjdk-headless jre17-openjdk jdk17-openjdk openjdk17-doc openjdk17-src`
 
-## Installing OpenJDK on Arch Based Distros
+## One Last Thing
 
-Open your termanal and copy and paste the command:<br>
-`sudo pacman -S jre17-openjdk-headless jre17-openjdk jdk17-openjdk openjdk17-doc openjdk17-src`
+Before you can start you're server on Linux you need to open **server-setup-config.yaml** and navagte to the follow line:<br>
+`forcedJavaPath:` and delete the following line: C:\Program Files\Java\jdk-17.0.2\bin\java.exe\.<br>
+Now save and you should be able to start your server.
 
 # How to install OpenJDK17 on Windows
 -----------------------------------
