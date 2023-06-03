@@ -27,7 +27,7 @@ For Arch-based Distros (Manjaro, ArcoLinux, EndeavourOS, etc.), open your termin
 
 2. Once you have successfully installed Java 17 on your Linux distribution, you can proceed by running the following command inside the root of your server folder in a terminal:<br>
 `bash ./run.sh` 
-3. IIf you encounter any issues while running the command, it is likely because the .sh file does not have executable permissions. To resolve this, you can enable the .sh file to be executable by executing the following command:<br>
+3. If you encounter any issues while running the command, it is likely because the .sh file does not have executable permissions. To resolve this, you can enable the .sh file to be executable by executing the following command:<br>
 `chmod +x run.sh`
 4. This will grant the necessary permissions to the run.sh file, allowing you to run it without any issues. Please ensure that you have a terminal application available on your system to execute these commands.
 
