@@ -1,4 +1,4 @@
-# Comprehensive Guide: Installing OpenJDK8 on Linux, Windows and MacOS
+# Comprehensive Guide: Installing Java 8 on Linux, Windows and MacOS
 -----------------------------------
 
 <details>
