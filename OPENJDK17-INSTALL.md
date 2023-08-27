@@ -8,7 +8,7 @@ With the release of Minecraft 1.17 and MinecraftForge, significant changes have 
 
 # Installing OpenJDK17 on Windows
 Before you can start your 1.17x Modded Minecraft server, ensure that Java 17 is installed. Follow the steps below:
-1. Download the recommended version of OpenJDK17: [OpenJDK17 v17.0.2](https://download.java.net/java/GA/jdk17.0.2/dfd4a8d0985749f896bed50d7138ee7f/8/GPL/openjdk-17.0.2_windows-x64_bin.zip).
+1. Download the recommended version of OpenJDK17: [v17.0.8_7](https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-jdk_x64_windows_hotspot_17.0.8_7.zip).
 2. After downloading the .zip file, navigate to the root of C:\Program Files\Java (create the folder if necessary).
 3. Extract the contents of the downloaded folder into the `C:\Program Files\Java` directory.
 4. Navigate back to the server file folder and double-click on the "forge-1.18.2-XX.XX.XX-installer.jar" file. Please note that the XX.XX.XX placeholder should be replaced with the specific version of Forge included in the server files.
