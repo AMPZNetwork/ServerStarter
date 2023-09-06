@@ -40,7 +40,7 @@ For Arch-based Distros (Manjaro, ArcoLinux, EndeavourOS, etc.), open your termin
 
 ## Installing OpenJDK on macOS
 To install OpenJDK on macOS, you can follow these steps:
-1. Visit the official [OpenJDK](https://download.java.net/java/GA/jdk17.0.2/dfd4a8d0985749f896bed50d7138ee7f/8/GPL/openjdk-17.0.2_macos-x64_bin.tar.gz) website in your web browser.
+1. Visit the official [OpenJDK](https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.8%2B7/OpenJDK17U-jre_aarch64_mac_hotspot_17.0.8_7.pkg) website in your web browser.
 2. Once the download is complete, locate the downloaded "tar.gz" file and open Terminal (located in Applications > Utilities).
 3. In Terminal, navigate to the directory where the "tar.gz" file is located. For example, if the file is in the Downloads folder, you can use the following command:<br>
 `cd Downloads`
