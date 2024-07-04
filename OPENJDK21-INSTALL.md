@@ -1,7 +1,7 @@
-# Comprehensive Guide: Installing OpenJDK17 on Linux, Windows and MacOS
+# Installing OpenJDK17 on Linux, Windows and MacOS
 -----------------------------------
 
-With the release of Minecraft 1.21 and MinecraftForge, significant changes have occurred, necessitating the use of Java 21 to run the game or a server. While the game client now includes a bundled copy of Java 21, it is essential to ensure that Java 21 is installed on your system. To facilitate this process, please refer to the following guide for installing Java 17 on your operating system.
+With the release of Minecraft 1.21 significant changes have occurred, necessitating the use of Java 21 to run the game or a server. While the game client now includes a bundled copy of Java 21, it is essential to ensure that Java 21 is installed on your system. To facilitate this process, please refer to the following guide for installing Java 17 on your operating system.
 
 <details>
   <summary>Windows Guide</summary>
@@ -10,8 +10,8 @@ With the release of Minecraft 1.21 and MinecraftForge, significant changes have 
 Before you can start your 1.21x Modded Minecraft server, ensure that Java 21 is installed. Follow the steps below:
 1. Begin by downloading the recommended version of OpenJDK17: [v21.0.2](https://aka.ms/download-jdk/microsoft-jdk-21.0.2-windows-x64.msi).
 2. Once the download is complete, launch the downloaded `.msi` file and follow the setup instructions provided.
-3. Next, return to the server file directory and locate the `forge-1.21-XX.XX.XX-installer.jar` file. Note that you should replace `XX.XX.XX` with the specific version of Forge included in the server files.
-4. Double-click on the `forge-MCVER-XX.XX.XX-installer.jar` file to initiate the installation process.
+3. Next, return to the server file directory and locate the `forge-1.21-XX.XX.XX-installer.jar` file.
+4. Double-click on the `forge-1.21-XX.XX.XX-installer.jar` file to initiate the installation process.
 5. After installation, execute the `run.bat` file to start loading the server. Upon the first run, it will pause to prompt your acceptance of the End-User License Agreement (EULA). Locate the EULA in the root directory of your server, provide your consent, and then restart the server for smooth operation.
 
 </details>
