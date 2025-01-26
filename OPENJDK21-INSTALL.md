@@ -1,14 +1,14 @@
-# Installing OpenJDK17 on Linux, Windows and MacOS
+# Installing OpenJDK21 on Linux, Windows and MacOS
 -----------------------------------
 
-With the release of Minecraft 1.21 significant changes have occurred, necessitating the use of Java 21 to run the game or a server. While the game client now includes a bundled copy of Java 21, it is essential to ensure that Java 21 is installed on your system. To facilitate this process, please refer to the following guide for installing Java 17 on your operating system.
+With the release of Minecraft 1.21 significant changes have occurred, necessitating the use of Java 21 to run the game or a server. While the game client now includes a bundled copy of Java 21, it is essential to ensure that Java 21 is installed on your system. To facilitate this process, please refer to the following guide for installing Java 21 on your operating system.
 
 <details>
   <summary>Windows Guide</summary>
 
 # Installing OpenJDK21 on Windows
 Before you can start your 1.21x Modded Minecraft server, ensure that Java 21 is installed. Follow the steps below:
-1. Begin by downloading the recommended version of OpenJDK17: [v21.0.2](https://aka.ms/download-jdk/microsoft-jdk-21.0.2-windows-x64.msi).
+1. Begin by downloading the recommended version of OpenJDK21: [v21.0.2](https://aka.ms/download-jdk/microsoft-jdk-21.0.6-windows-x64.msi).
 2. Once the download is complete, launch the downloaded `.msi` file and follow the setup instructions provided.
 3. Next, return to the server file directory and locate the `forge-1.21-XX.XX.XX-installer.jar` file.
 4. Double-click on the `forge-1.21-XX.XX.XX-installer.jar` file to initiate the installation process.
@@ -27,7 +27,7 @@ For Debian-based Distros (Ubuntu, Pop Os, Linux Mint, etc.), open your terminal 
 For Arch-based Distros (Manjaro, ArcoLinux, EndeavourOS, etc.), open your terminal and execute the following command:<br>
 `sudo pacman -S jre21-openjdk-headless jre21-openjdk jdk21-openjdk openjdk21-doc openjdk21-src`
 
-2. Once you have successfully installed Java 17 on your Linux distribution, you can proceed by running the following command inside the root of your server folder in a terminal:<br>
+2. Once you have successfully installed Java 21 on your Linux distribution, you can proceed by running the following command inside the root of your server folder in a terminal:<br>
 `bash ./run.sh` 
 3. IIf you encounter any issues while running the command, it is likely because the .sh file does not have executable permissions. To resolve this, you can enable the .sh file to be executable by executing the following command:<br>
 `chmod +x run.sh`
@@ -54,7 +54,7 @@ Replace <filename> with the actual name of the downloaded file.
 7. Add the Java bin directory to your PATH variable by running the following command:<br>
 `export PATH=$JAVA_HOME/bin:$PATH`
 8. Verify the installation by running the following command in Terminal:<br>
-`java -version` This should display the version information for OpenJDK 17.
+`java -version` This should display the version information for OpenJDK 21.
 
 If you are a Mac user and would like to contribute to improving this section, we encourage you to reach out to LabsZero on our Discord. As the guide's author does not personally use MacOS, there is a possibility that the instructions provided may not be perfect for that platform. Your input and expertise would be greatly appreciated in refining the guide for Mac users.
 
@@ -69,13 +69,13 @@ If you encounter an error in the server console stating:
 ```
   Caused by: java.lang.module.InvalidModuleDescriptorException: Unsupported major.minor version 60.0
   ```
-This indicates that the Java command used in the run script is referencing a different version of Java than the required Java 17. To resolve this issue, follow these steps:
+This indicates that the Java command used in the run script is referencing a different version of Java than the required Java 21. To resolve this issue, follow these steps:
 
 1. Right-click on the run script and open it in a text editor such as NotePad, NotePad++, VisualStudio Code, Sublime, or any other suitable editor. Avoid using a Word editor.
 
 2. Once the file is open, locate the first occurrence of the word "java" in the script.
 
-3. Edit the word "java" to include the full path to your Java 17 installation, enclosed within quotes. The modified line should look similar to this:<br>
+3. Edit the word "java" to include the full path to your Java 21 installation, enclosed within quotes. The modified line should look similar to this:<br>
 `"C:\Program Files\Java\jdk-21.0.2\bin\java" @user_jvm_args.txt @libraries/net/minecraftforge/forge/1.21-XX.X.XX/win_args.txt`
 
 4. By specifying the correct path to Java 21 in the run script, you will resolve the error and ensure that the server runs with the correct Java version
